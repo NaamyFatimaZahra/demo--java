@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'demo--java'
           slot-name: 'Production'
-          package: '*.jar'
+          package: 'demo--java-1.0-SNAPSHOT-jar-with-dependencies.jar'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_20F1E3C18D4F4EF69C370FF477215565 }}
